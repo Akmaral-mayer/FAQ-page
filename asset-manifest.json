@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FAQ-page/static/css/main.273c16e6.chunk.css",
+    "main.js": "/FAQ-page/static/js/main.e3ac3e1c.chunk.js",
+    "main.js.map": "/FAQ-page/static/js/main.e3ac3e1c.chunk.js.map",
+    "runtime-main.js": "/FAQ-page/static/js/runtime-main.16b9db2a.js",
+    "runtime-main.js.map": "/FAQ-page/static/js/runtime-main.16b9db2a.js.map",
+    "static/js/2.f0d79180.chunk.js": "/FAQ-page/static/js/2.f0d79180.chunk.js",
+    "static/js/2.f0d79180.chunk.js.map": "/FAQ-page/static/js/2.f0d79180.chunk.js.map",
+    "index.html": "/FAQ-page/index.html",
+    "static/css/main.273c16e6.chunk.css.map": "/FAQ-page/static/css/main.273c16e6.chunk.css.map",
+    "static/js/2.f0d79180.chunk.js.LICENSE.txt": "/FAQ-page/static/js/2.f0d79180.chunk.js.LICENSE.txt",
+    "static/media/investing.63b2f186.png": "/FAQ-page/static/media/investing.63b2f186.png",
+    "static/media/reuters.63da207a.png": "/FAQ-page/static/media/reuters.63da207a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16b9db2a.js",
+    "static/js/2.f0d79180.chunk.js",
+    "static/css/main.273c16e6.chunk.css",
+    "static/js/main.e3ac3e1c.chunk.js"
+  ]
+}
