@@ -19,6 +19,7 @@ export const SupportBlock = styled.div`
     letter-spacing: -0.03em;
     color: #212121;
   }
+
   h2 {
     font-weight: 800;
     font-size: 42px;
@@ -53,6 +54,18 @@ export const SupportBlock = styled.div`
     h2 {
       font-size: 28px;
       line-height: 150%;
+    }
+  }
+
+  @media screen and (min-width: 2200px) {
+    width: 1500px;
+
+    h2 {
+      font-size: 68px;
+    }
+
+    p {
+      font-size: 38px;
     }
   }
 `;

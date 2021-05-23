@@ -16,6 +16,11 @@ export const Title = styled.h1`
     width: 334px;
     margin-bottom: 64px;
   }
+
+  @media screen and (min-width: 2200px) {
+    font-size: 120px;
+    width: 1500px;
+  }
 `;
 
 export const Link = styled.a`
@@ -25,6 +30,10 @@ export const Link = styled.a`
   font-size: 16px;
   line-height: 150%;
   text-decoration: none;
+
+  @media screen and (min-width: 2200px) {
+    font-size: 38px;
+  }
 `;
 
 export const LeftMenu = styled.nav`
@@ -33,7 +42,7 @@ export const LeftMenu = styled.nav`
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 3em;
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;

@@ -22,13 +22,16 @@ export const questions = [
     data: [
       {
         question: "Which is the best Bitcoin wallet?",
-        answer: `Кошельки бывают:
-        Desktop wallets Hardware walletsOnline wallets or Mobile wallets Paper wallets
-        Самые удобные — мобильные кошельки. Например Exodus
-        Вот несколько, которые хорошо себя зарекомендовали
-        Mobile: Exodus
-        Hardware wallets: Ledger or Trezor
-        Desktop: Electrum (для страниц BTC) / Metamask (для страниц ETH)`,
+        answer: `Кошельки бывают: <br> <br>
+        Desktop wallets <br>
+        Hardware wallets <br>
+        Online wallets or Mobile wallets <br>
+        Paper wallets <br> <br>
+        Самые удобные — мобильные кошельки. Например Exodus <br>
+        Вот несколько, которые хорошо себя зарекомендовали <br>
+        Mobile: <a>Exodus</a> <br> <br>
+        Hardware wallets: <a>Ledger<a/> or <a>Trezor</a> <br> <br>
+        Desktop: <a>Electrum</a>(для страниц BTC) / <a>Metamask</a> (для страниц ETH)`,
       },
       {
         question:

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import { HeaderWrapper } from "./Header.components";
 import logo from "../../images/logo1.png";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
@@ -30,7 +30,7 @@ export const Header = () => {
   const classes = useStyles();
 
   return (
-    <header>
+    <HeaderWrapper>
       <img className="logo" src={logo} alt="logo" />
       <nav>
         <ul>
@@ -45,6 +45,7 @@ export const Header = () => {
                 root: classes.root,
                 label: classes.label,
               }}
+              className="btn"
             >
               Sign up for free
             </Button>
@@ -52,6 +53,6 @@ export const Header = () => {
         </ul>
       </nav>
       <img className="burger" src={burgerImg} alt="" />
-    </header>
+    </HeaderWrapper>
   );
 };

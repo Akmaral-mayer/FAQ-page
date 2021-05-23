@@ -8,6 +8,9 @@ const Breadcrumbs = styled.div`
   line-height: 150%;
   display: flex;
   margin-top: 70px;
+  @media screen and (min-width: 2000px) {
+    font-size: 38px;
+  }
 `;
 
 const Crumb = styled.div`
@@ -18,6 +21,9 @@ const Crumb = styled.div`
   margin: 0 8px;
   cursor: ${(props) => (props.active ? "not-allowed" : "pointer")};
   color: ${(props) => (props.active ? "#000000" : "#2F66E3")};
+  @media screen and (min-width: 2000px) {
+    font-size: 38px;
+  }
 `;
 
 export function CustomBreadcrumbs() {
